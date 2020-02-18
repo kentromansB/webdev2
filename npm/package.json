@@ -1,18 +1,26 @@
 {
-  "name": "@kentromansb/npm",
-  "version": "1.0.0",
+  "name": "krb",
+  "version": "2.0.4",
   "main": "index.js",
   "dependencies": {
     "@linclark/pkg": "^1.0.3",
     "how-to-npm": "^2.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {}, 
   "scripts": {
     "start": "how-to-npm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kent Romans Bandong",
   "license": "ISC",
-  "description": ""
+  "description": "My First NPM PACKAGE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentromansB/npm-pkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kentromansB/npm-pkg/issues"
+  },
+  "homepage": "https://github.com/kentromansB/npm-pkg#readme"
 }
